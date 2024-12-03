@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Voucher UI</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Home Section -->
+    <div class="container mt-4" id="home-section">
+      <!-- Memasukkan home.html di sini -->
+      <div id="home-content"></div>
+    </div>
+
+    <!-- Profile Section -->
+    <div class="container mt-4 d-none" id="profile-section">
+      <!-- Memasukkan profile.html di sini -->
+      <div id="profile-content"></div>
+    </div>
+
+    <!-- Bottom Navigation -->
+    <nav class="navbar fixed-bottom bottom-nav">
+      <div class="container d-flex justify-content-around">
+        <a href="#" class="nav-link active" id="nav-home">
+          <i class="fas fa-home fa-lg"></i><br />
+          Home
+        </a>
+        <a href="#" class="nav-link" id="nav-profile">
+          <i class="fas fa-user fa-lg"></i><br />
+          Profile
+        </a>
+      </div>
+    </nav>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/main.js"></script>
+  </body>
+</html>
