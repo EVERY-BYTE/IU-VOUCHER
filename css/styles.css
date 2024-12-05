@@ -4,7 +4,7 @@
   --indosat-color: yellow;
   --axis-color: purple;
   --button-color: lightgreen;
-  --nav-active-color: dodgerblue;
+  --nav-active-color: rgb(80, 190, 80);
   --nav-inactive-color: gray;
   --font-size-normal: 16px;
   --font-size-large: 18px;
@@ -37,6 +37,7 @@ body {
   background-color: var(--axis-color);
 }
 
+/* voucher card */
 .voucher-card {
   display: flex;
   align-items: center;
@@ -85,7 +86,6 @@ body {
 }
 
 .quantity-control button {
-  /* border: solid 1px var(--border-color); */
   border: none;
   padding: 12px 20px;
   cursor: pointer;
@@ -112,6 +112,7 @@ body {
   padding: 8px 20px;
 }
 
+/* bottom navigation */
 .bottom-nav {
   text-align: center;
   background-color: white;
@@ -164,7 +165,7 @@ body {
 }
 
 .contact-info i {
-  color: #25d366; /* WhatsApp Green */
+  color: #25d366;
 }
 
 .btn-profile {
@@ -183,12 +184,12 @@ body {
 /* Media Query for Desktop */
 @media (min-width: 768px) {
   .container {
-    max-width: 600px; /* Adjust the max-width as needed */
-    margin: 0 auto; /* Center the container */
+    max-width: 600px;
+    margin: 0 auto;
   }
 
   .profile-container {
-    max-width: 500px; /* Ensure profile container doesn't stretch too wide */
+    max-width: 500px;
     margin: 20px auto;
   }
 }
