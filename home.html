@@ -47,36 +47,84 @@
       <!-- Telkomsel Section -->
       <div class="mb-4">
         <div class="section-header telkomsel">Voucher Telkomsel</div>
-        <div class="voucher-card">
+        <div class="voucher-card" data-price="12000">
           <div class="voucher-info">
             <strong>Vcr 1,5GB /3hr</strong>
-            <small>Rp12.000</small>
+            <div class="voucher-price">
+              <small>Rp12.000</small>
+              <i class="bi bi-eye eye-icon"></i>
+            </div>
           </div>
-          <button class="btn-beli">Beli</button>
+          <div class="btn-container">
+            <button class="btn-beli">Beli</button>
+          </div>
+        </div>
+        <div class="voucher-card" data-price="12000">
+          <div class="voucher-info">
+            <strong>Vcr 1,5GB /3hr</strong>
+            <div class="voucher-price">
+              <small>Rp12.000</small>
+              <i class="bi bi-eye eye-icon"></i>
+            </div>
+          </div>
+          <div class="btn-container">
+            <button class="btn-beli">Beli</button>
+          </div>
         </div>
       </div>
 
       <!-- Indosat Section -->
       <div class="mb-4">
         <div class="section-header indosat">Voucher Indosat</div>
-        <div class="voucher-card">
+        <div class="voucher-card" data-price="12000">
           <div class="voucher-info">
             <strong>Vcr 1,5GB /3hr</strong>
-            <small>Rp12.000</small>
+            <div class="voucher-price">
+              <small>Rp12.000</small>
+              <i class="bi bi-eye eye-icon"></i>
+            </div>
           </div>
-          <button class="btn-beli">Beli</button>
+          <div class="btn-container">
+            <button class="btn-beli">Beli</button>
+          </div>
         </div>
       </div>
 
       <!-- Axis Section -->
       <div class="mb-4">
         <div class="section-header axis">Voucher Axis</div>
-        <div class="voucher-card">
+        <div class="voucher-card" data-price="12000">
           <div class="voucher-info">
             <strong>Vcr 1,5GB /3hr</strong>
-            <small>Rp12.000</small>
+            <div class="voucher-price">
+              <small>Rp12.000</small>
+              <i class="bi bi-eye eye-icon"></i>
+            </div>
           </div>
-          <button class="btn-beli">Beli</button>
+          <div class="btn-container">
+            <button class="btn-beli">Beli</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Total Table and Footer -->
+      <div class="total-section mt-4">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Total</th>
+              <td id="total-price-cell">Rp0</td>
+            </tr>
+          </thead>
+        </table>
+
+        <div class="footer d-flex justify-content-between align-items-center">
+          <div class="total-items" style="flex: 1">
+            Total Items: <span id="total-items">0</span>
+          </div>
+          <button class="btn-beli" style="flex: 1" id="final-buy-button">
+            Beli
+          </button>
         </div>
       </div>
     </div>
